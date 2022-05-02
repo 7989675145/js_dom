@@ -3,7 +3,7 @@ let arr = Array();
 
 function addElement() {
     arr[x] = document.getElementById('t1').value;
-    alert(`Element ${arr[x]} Added at index ${x}`);
+    alert(`${arr[x]} was Added`);
     x++;
     document.getElementById("t1").value = "";
 }
