@@ -11,7 +11,7 @@ function addElement() {
 function display(){
     let output = '';
     for(var i =0; i<arr.length;i++){
-        output+= `Element ${i} = ${arr[i]} <b>`;
+        output+= `${arr[i]} <br/>`;
     }
     document.getElementById("Result").innerHTML = output;
 }
